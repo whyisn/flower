@@ -4,9 +4,9 @@ s = turtle.Screen()
 t = turtle.Turtle()
 s.bgcolor('#000000')
 t.speed(100) 
-col = ('#FAF8F1','#A555EC','#62B6B7','#FB2576','#62B6B7','#E6DDC4')
+col = ('#FAF8F1','#A555EC','#62B6B7','#FB2576')
 
-for n in range(8):
+for n in range(9):
   for x in range(8):
     t.speed(x+10)
     for i in range(2):
